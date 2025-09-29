@@ -8,7 +8,7 @@ public class Main {
         double[] values = new double[] {65, 51, 16, 11, 6519, 191, 0, 98, 19854, 1, 32};
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("¿Calcular estadísticas? (s/n): ");
+        System.out.print("Calculate stats? (s/n): ");
         String respuesta = scanner.nextLine();
         scanner.close();
 
@@ -27,7 +27,7 @@ public class Main {
             System.out.println("Median: " + median);
             System.out.println("Standard Deviation: " + standardDeviation);
         } else {
-            System.out.println("Operación cancelada.");
+            System.out.println("Operation canceled.");
         }
     }
 }
